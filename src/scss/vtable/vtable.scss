@@ -1,0 +1,58 @@
+$border: rgb(200, 200, 250);
+$hover: rgb(190, 228, 159);
+
+.vtable {
+  &__column {
+    padding: 0px;
+  }
+
+  &__main-cell {
+    background-color: $secondary;
+    color: $light;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $border;
+    font-weight: 600;
+  }
+
+  &__cell {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $border;
+  }
+
+  &__value {
+    display: flex;
+    padding: 0px 7px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__value_active {
+    background-color: $info;
+    color: $light;
+    cursor: grab;
+  }
+
+  &__value_invisible {
+    display: none;
+  }
+
+  &__cell_hover {
+    background-color: $hover;
+  }
+
+  &__remove {
+    cursor: pointer;
+
+    &:hover {
+      color: $danger;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.new-event {
+  &__row {
+    display: flex;
+    padding-bottom: 30px;
+  }
+
+  &__title {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+
+  &__footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__cancel {
+    padding-right: 60px;
+  }
+}

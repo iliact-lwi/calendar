@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
+@import './calendar/calendar.scss';
+@import './newEvent/newEvent.scss';
+@import './vselect/vselect.scss';
+@import './vtable/vtable.scss';
+@import './vinput/vinput.scss';
+@import './vcancel/vcancel.scss';
+@import './vcreate/vcreate.scss';
+@import './valert/valert.scss';
+@import './vmodal/vmodal.scss';
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.app {
+  padding: 100px 0px;
+  position: relative;
+}

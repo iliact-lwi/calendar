@@ -1,0 +1,15 @@
+.valert-box {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.valert {
+  width: 100%;
+  padding-bottom: 5px;
+
+  &__message {
+    margin-bottom: 0px;
+  }
+}

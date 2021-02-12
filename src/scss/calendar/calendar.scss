@@ -1,0 +1,19 @@
+.calendar {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__main {
+    padding-top: 30px;
+  }
+}
